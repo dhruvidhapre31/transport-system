@@ -10,17 +10,17 @@ A DRF application that generates transport quotes, create bookings for transport
 
 # Installation
 - Create a virtual environment
-bash```
+```bash
 python -m venv .venv
 ```
 
 - Activate environment
-bash```
+```bash
 .venv\Scripts\activate
 ```
 
 - Install requirements
-bash```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 # Create Database
 - Create database in PostgreSQL and run below command for data models creation:
-bash```
+```bash
 python manage.py migrate
 ```
 
